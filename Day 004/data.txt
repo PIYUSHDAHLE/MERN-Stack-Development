@@ -1,0 +1,25 @@
+HTML 5 
+
+meta tag is a data of data
+
+<nav></nav>
+
+<header><header>
+
+<section></section> bigger container // articale tag work same as it 
+
+<main></main> 
+
+<div></div>
+
+<footer></footer>
+
+<aside> tag
+
+<div class="abc" ></div>
+1 tag can have muliple classes
+1 tag can have same classes
+
+
+<div id="xyz" ></div>
+Id is used to select single tag only and 1 tag cannot have multiple id and vice-versa
