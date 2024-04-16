@@ -23,3 +23,7 @@ meta tag is a data of data
 
 <div id="xyz" ></div>
 Id is used to select single tag only and 1 tag cannot have multiple id and vice-versa
+
+shortcut keys
+long lorem word zip in the screen size using 
+alt + z
