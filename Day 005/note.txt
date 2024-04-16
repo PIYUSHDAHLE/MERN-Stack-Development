@@ -1,0 +1,6 @@
+Sequence of style
+1st inline
+2nd internal 
+3rd external
+
+# is called pound sign 

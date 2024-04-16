@@ -1,3 +1,5 @@
+/* tag selector : use to select all the tags in the html  */
+
 h1{
     color: green;  
   }
@@ -6,4 +8,30 @@ h2{
   }
 h3{
     color: green;  
+  }
+
+  /* universial selector */
+  *{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+  }
+
+  html,body{
+    height: 100%;
+    width: 100%;
+  }
+
+ /* id selector : use to select single element */
+  #main-heading{
+    font-size: 50px;
+    background-color: blanchedalmond;
+  }
+  /* class selector : use to select multiple element */
+  .c{
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .text-style{
+    font-size: large;
+    background-color: pink;
   }
