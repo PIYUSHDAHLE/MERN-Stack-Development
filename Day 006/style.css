@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+   }
+ 
+   html,body{
+     height: 100%;
+     width: 100%;
+   }
+
+   /* 
+   types of writing colors in code
+   colorname - white
+   hexcode - #ffffff
+   rgb - rgb(255,255,255)
+   rgba - rgba(255,255,255,0.5) alpha is use for transperency of color */
+/* 
+   h1{
+    background-color: pink;
+    color: rgba(0, 0, 255,0.6);
+   }
+   span{
+    color: rgb(200, 83, 83);
+    background-color: #00ffff;
+    font-size: 40px;
+   } */
+
+body{
+    background:linear-gradient( to right bottom,#24C6DC,#514A9D);
+    /* background:radial-gradient(yellow,orange,red,green,blue,black); */
+}
