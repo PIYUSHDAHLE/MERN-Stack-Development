@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+h1{
+    font-size: 50px;
+    font-family:  Courier, monospace;
+}
+h1{
+    color: tomato;
+    font-size: 40px;
+    font-family: "Times New Roman,  serif;
+}
+h2{
+    color:blue;
+    font-size: 40px;
+    font-family:monospace
+}
+h5{
+    font-size: 50px;
+}
