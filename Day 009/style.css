@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+.b1{
+ width:50%;
+ background-color: tomato;
+ /* padding: 10px; */
+ /* padding: 50px 20px; top/bottom right/left */
+ padding: 10px 40px 80px 120px; /* top right bottom left */
+
+ border: 10px solid blue;
+
+margin: 50px;
+
+}
+
+.b2{
+    width: 50%;
+    background-color: green;
+    padding: 20px 40px;
+    border: 10px solid blue;
+    margin: 10px 50px;
+}
+.b3{
+    width: 50%;
+    background-color: yellow;
+    padding: 20px 40px;
+    margin: 50px;
+    border-top: 5px solid black;
+    border-bottom: 5px solid red;
+    border-left: 10px solid rgb(0, 255, 4);
+    border-right: 10px solid blue;
+}
