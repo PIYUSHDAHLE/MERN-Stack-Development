@@ -19,22 +19,25 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-.overlay{
-    width: 100%;
-    height: 100%;
-    background-color: rgb(0, 0, 0,0.5);
-}
+
 .content{
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
     text-align: center;
-  
     margin: 0px 10px; 
+    padding: 150px;
 }
- h1{
+
+    .overlay{
+        width: 100%;
+        height: 100%;
+        background-color: rgb(0, 0, 0,0.5);
+    }
+
+    h1{
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
@@ -59,7 +62,7 @@ body{
     height: 100%;
     width: 100%;
 
-    background-image: url(https://img.freepik.com/free-photo/beautiful-manhattan-bridge-new-york-usa_181624-48458.jpg?w=996&t=st=1714016686~exp=1714017286~hmac=bd187a5e5b538adc9dce08f830751755c49015823159f12eda0307868aa54f51);
+    background-image: url(https://www.progresstravel.com.au/wp-content/uploads/2016/05/NewYorkCity.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -69,7 +72,7 @@ body{
     height: 100%;
     width: 100%;
 
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/London_Skyline_%28125508655%29.jpeg/1024px-London_Skyline_%28125508655%29.jpeg);
+    background-image: url(https://static01.nyt.com/images/2023/07/01/travel/22hours-paris-tjzf/22hours-paris-tjzf-videoSixteenByNineJumbo1600.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
