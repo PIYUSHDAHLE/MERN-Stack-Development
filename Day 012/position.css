@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+.box1{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    /* right: 10%; */
+    /* z-index :-1 use for layering */
+    /* absolute relative sticky fixed */
+    /* left right top bottom zindex */
+
+}
+.box2{
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+}

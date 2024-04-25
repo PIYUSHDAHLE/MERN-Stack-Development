@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://media.tacdn.com/media/attractions-splice-spp-674x446/07/03/1c/9c.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color:rgb(0, 0, 0, 0.3);
+}
+.content {
+text-align: center;
+background-color: aliceblue;
+color: rgb(20, 18, 18);
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+
+
+}
+h1{
+    padding: 10px;
+}
+p{
+    padding: 10px;
+
+}
+button{
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid black;
+    color: rgb(190, 31, 31);
+    border-radius: 10px;
+    /* box-shadow: 10px 10px red; */
+}
