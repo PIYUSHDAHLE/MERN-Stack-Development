@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    height: 50%;
+    width: 50%;
+    background-color: aquamarine;
+    position: relative;
+}
+.ele1{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: relative;
+    top:50%;
+    left: 100%;
+}
+.ele2{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    position: absolute;
+    top:100%;
+    left: 100%;
+}
