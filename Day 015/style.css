@@ -73,6 +73,12 @@ main img{
     color: black;
 }
 
+.big-links > a:hover{
+    text-decoration: underline;
+    color: rgb(72, 72, 228);
+    cursor: pointer;
+}
+
 .bigdot{
     position: relative;
     top: 10px;
