@@ -1,0 +1,93 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+html, body{
+height: 200%;
+width: 100%;
+}
+
+body {
+    background: #faf6ef;
+    font-family: Helvetica;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+nav{
+    width: 100%;
+    height: 7vh;
+    position: fixed;
+    top: 0;
+    padding: 10px;
+    border-bottom: 1px solid black;  
+    z-index: 10000;  
+    background: #faf6ef;
+}
+img{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%, 0);
+    height: 30px;
+
+}
+nav i{
+    font-size: 25px;
+}
+
+.navbox {
+    position: absolute;
+    right: 0;
+}
+
+nav span i{
+ padding: 10px;
+}
+
+
+main img{
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    width: 100%;
+    padding-bottom: 20px;
+    transform: translateX(-50,0); 
+    height: 46vh;
+    border-bottom: 1px solid black;
+  
+}
+
+
+.big-links{
+    margin-top: 390px;
+    font-size: 110px;
+    font-weight: 500;
+    text-align: center;   
+    /* font-family: "Questrial", sans-serif; */
+} 
+ 
+.big-links > a{
+    text-decoration: none;
+    color: black;
+}
+
+.bigdot{
+    position: relative;
+    top: 10px;
+ font-size: 150px;
+ line-height: 100px;
+} 
+ marquee {
+    background-color: #ff39a4;
+    font-size: 40px;
+    font-weight: 500;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+marquee:hover {
+    color: white;
+    cursor: pointer;
+} 
