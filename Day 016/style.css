@@ -1,0 +1,177 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+html, body{
+height: 200%;
+width: 100%;
+}
+
+body {
+    background: #faf6ef;
+    font-family: Helvetica;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+nav{
+    width: 100%;
+    height: 7vh;
+    position: fixed;
+    top: 0;
+    padding: 10px;
+    border-bottom: 1px solid black;  
+    z-index: 10000;  
+    background: #faf6ef;
+}
+img{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%, 0);
+    height: 30px;
+
+}
+nav i{
+    font-size: 25px;
+}
+
+.navbox {
+    position: absolute;
+    right: 0;
+}
+
+nav span i{
+ padding: 10px;
+}
+
+
+main img{
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    width: 100%;
+    padding-bottom: 20px;
+    transform: translateX(-50,0); 
+    height: 46vh;
+    border-bottom: 1px solid black;
+  
+}
+
+
+.big-links{
+    margin-top: 390px;
+    font-size: 110px;
+    font-weight: 500;
+    text-align: center;   
+    /* font-family: "Questrial", sans-serif; */
+} 
+ 
+.big-links > a{
+    text-decoration: none;
+    color: black;
+}
+
+.big-links > a:hover{
+    text-decoration: underline;
+    color: rgb(72, 72, 228);
+    cursor: pointer;
+}
+
+.bigdot{
+    position: relative;
+    top: 10px;
+ font-size: 150px;
+ line-height: 100px;
+} 
+ marquee {
+    background-color: #ff39a4;
+    font-size: 40px;
+    font-weight: 500;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+marquee:hover {
+    color: white;
+    cursor: pointer;
+} 
+
+video{
+    width: 100%;
+    margin-top: -4px;
+    border-bottom: 1px solid black;
+}
+
+.vcaption{
+    border-bottom: 1px solid black;
+    font-size: 20px;
+    padding: 20px;
+    font-style: italic;
+    
+}
+.vcaption2{
+    font-size: 70px;
+    padding: 15px;
+    line-height: 65px;
+    
+}
+.vcap3{
+    display: inline-block;
+    color: black;
+    padding-top: 30px;
+ 
+    padding-bottom: 95px;
+    font-size: 70px;
+    font-weight: 500;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.vcap3:hover{
+    color: rgb(61, 61, 228);
+    cursor: pointer;
+}
+.line{
+    margin-top:30px ;
+    border-bottom: 1px solid black;
+}
+.book{
+    font-size: 75px;
+}
+
+.view{
+  position: absolute;
+  right: 0;
+  color: black;
+  font-size: 20px;
+  padding: 25px;
+}
+.view:hover{
+    color: rgb(61, 61, 228);
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    border-bottom: 1px solid black;
+}
+
+.last-row{
+    border-bottom:none;
+    
+  }
+  .cell {
+    margin: 0px 10px;
+    text-align: center;
+    padding: 4px;
+  }
+  
