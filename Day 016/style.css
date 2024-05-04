@@ -1,12 +1,12 @@
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
-html, body{
-height: 200%;
-width: 100%;
+html,
+body {
+    height: 100%;
+    width: 100%;
 }
 
 body {
@@ -14,78 +14,61 @@ body {
     font-family: Helvetica;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
-
-nav{
+nav {
     width: 100%;
-    height: 7vh;
+    padding: 20px 5px;
     position: fixed;
     top: 0;
-    padding: 10px;
-    border-bottom: 1px solid black;  
-    z-index: 10000;  
-    background: #faf6ef;
+    border-bottom: 1px solid black;
+    z-index: 10000;
+    background-color: #faf6ef;
 }
-img{
+
+nav > img {
+    height: 50%;
     position: absolute;
     left: 50%;
-    transform: translateX(-50%, 0);
-    height: 30px;
-
+    transform: translateX(-50%);
 }
-nav i{
-    font-size: 25px;
-}
-
-.navbox {
+nav > span {
     position: absolute;
     right: 0;
 }
-
-nav span i{
- padding: 10px;
+nav i {
+    font-size: 30px;
+    margin-right: 10px;
 }
 
-
-main img{
-    position: absolute;
-    top: 10%;
-    left: 0%;
+.headerlogo {
+    padding: 0 40px;
     width: 100%;
-    padding-bottom: 20px;
-    transform: translateX(-50,0); 
-    height: 46vh;
-    border-bottom: 1px solid black;
-  
+    margin-top: 6%;
+    margin-bottom: 1%;
 }
 
-
-.big-links{
-    margin-top: 390px;
-    font-size: 110px;
+.big-links {
+    margin: 1% auto;
+    width: 95%;
+    font-size: 120px;
     font-weight: 500;
-    text-align: center;   
-    /* font-family: "Questrial", sans-serif; */
-} 
- 
-.big-links > a{
+    text-align: center;
+}
+
+.big-links > a {
     text-decoration: none;
     color: black;
 }
 
-.big-links > a:hover{
+.big-links > a:hover {
     text-decoration: underline;
-    color: rgb(72, 72, 228);
-    cursor: pointer;
+    color: rgb(43, 98, 226);
 }
 
-.bigdot{
-    position: relative;
-    top: 10px;
- font-size: 150px;
- line-height: 100px;
-} 
- marquee {
+.bigdot {
+    font-size: 150px;
+    line-height: 120px;
+}
+.video-slider1 {
     background-color: #ff39a4;
     font-size: 40px;
     font-weight: 500;
@@ -93,85 +76,210 @@ main img{
     border-bottom: 1px solid black;
 }
 
-marquee:hover {
+.video-slider1:hover {
     color: white;
     cursor: pointer;
-} 
+}
 
-video{
+.supervideo1 {
     width: 100%;
     margin-top: -4px;
     border-bottom: 1px solid black;
 }
 
-.vcaption{
+.videocaption1 {
     border-bottom: 1px solid black;
-    font-size: 20px;
-    padding: 20px;
+    padding: 10px;
+    font-size: 22px;
     font-style: italic;
-    
 }
-.vcaption2{
+
+.videocaption2 {
     font-size: 70px;
-    padding: 15px;
-    line-height: 65px;
-    
+    padding: 10px;
+    margin-bottom: 50px;
 }
-.vcap3{
-    display: inline-block;
+
+.learn-more {
+    padding: 10px;
+    font-size: 70px;
     color: black;
+    margin-bottom: 100px;
+    display: block;
+}
+
+.learn-more:hover {
+    color: rgb(43, 98, 226);
+}
+
+.book-now {
+    font-weight: 400;
     padding-top: 30px;
- 
-    padding-bottom: 95px;
-    font-size: 70px;
-    font-weight: 500;
-    width: 100%;
+    font-size: 80px;
+    border-top: 1px solid black;
     border-bottom: 1px solid black;
 }
 
-.vcap3:hover{
-    color: rgb(61, 61, 228);
-    cursor: pointer;
-}
-.line{
-    margin-top:30px ;
-    border-bottom: 1px solid black;
-}
-.book{
-    font-size: 75px;
+.table-div {
+    position: relative;
 }
 
-.view{
-  position: absolute;
-  right: 0;
-  color: black;
-  font-size: 20px;
-  padding: 25px;
-}
-.view:hover{
-    color: rgb(61, 61, 228);
-}
-
-.table {
-    display: flex;
-    flex-direction: column;
+.table-div > a {
+    text-decoration: none;
+    padding-bottom: 5px;
+    border-bottom: 2px solid black;
+    color: black;
+    position: absolute;
+    right: 0;
+    top: 70%;
     font-size: 20px;
-  }
-  
-  .row {
+}
+
+.table-div > a:hover {
+    color: rgb(43, 98, 226);
+    border-color: rgb(43, 98, 226);
+}
+
+.table-structure {
+    list-style-type: none;
+}
+
+.table-structure > li {
+    position: relative;
+    font-size: 20px;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.table-structure > li:last-child {
+    border-bottom: none;
+    margin-bottom: 100px;
+}
+
+.table-structure .duration {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.table-structure .price {
+    position: absolute;
+    right: 10px;
+}
+
+.box-container1 {
+    width: 100%;
+    height: 90%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    position: relative;
+}
+
+.left-box1 {
+    width: 50%;
+    height: 100%;
+    border-right: 1px solid black;
+    padding: 10px;
+}
+
+.right-box1 {
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    position: absolute;
+    left: 50%;
+    top: 0;
+}
+
+.right-box1 > div,
+.left-box1 > div {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    padding: 50px;
+    position: relative;
+}
+
+.left-box1 > div > a,
+.right-box1 > div > a {
+    font-size: 130px;
+    color: white;
+}
+
+.left-box1 > div > span,
+.right-box1 > div > span {
+    font-size: 150px;
+    color: white;
+    position: absolute;
+    top: 70%;
+    left: 10%;
+}
+
+.advt-slider1 {
+    border-bottom: 1px solid black;
+    font-size: 100px;
+}
+
+.advt-slider1 > img {
+    height: 100px;
+    transform: translateY(15px);
+}
+
+.advt-slider1 > span {
+    font-size: 100px;
+    font-weight: 600;
+}
+
+.blank{
+    width: 100%;
+    height: 12vh;
+    
+    border-bottom: 1px solid black;
+}
+.box{
+    font-size: 80px;
+    font-weight: 400;
+    border-bottom: 1px solid black;
+
+}
+.mainbox{
+    width: 100%;
+    height: 70%; 
     display: flex;
     justify-content: space-between;
-    margin-bottom: 5px;
-    border-bottom: 1px solid black;
+    align-items: center;
+}
+.mainbox > .box1,.mainbox > .box2,.mainbox > .box3{
+    /* padding: 50px; */
+    border-right: 1px solid black;
+    /* margin: 50px; */
+    width: 33.4%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);   
 }
 
-.last-row{
-    border-bottom:none;
+.mainbox > .box1 > .card1 {
+    width: 85%;
+    height: 80%;
+    margin: 50px 50px 50px 40px;
+background-image: url(https://superlap.world/cdn/shop/files/Group_545_98a0b7d1-f4a4-4e27-a1d0-7c0933994dd0.png?v=1714679292&width=850);
+background-position: center;
+background-size: cover;
     
-  }
-  .cell {
-    margin: 0px 10px;
-    text-align: center;
-    padding: 4px;
-  }
-  
+}
+.mainbox > .box2 > .card2 {
+    width: 85%;
+    height: 80%;
+    margin: 50px 50px 50px 40px;
+background-image: url(https://superlap.world/cdn/shop/files/Group_545_98a0b7d1-f4a4-4e27-a1d0-7c0933994dd0.png?v=1714679292&width=850);
+background-position: center;
+background-size: cover;
+}
+.mainbox > .box3 > .card3 {
+    width: 85%;
+    height: 80%;
+    margin: 50px 50px 50px 40px;
+background-image: url(https://superlap.world/cdn/shop/files/Group_545_98a0b7d1-f4a4-4e27-a1d0-7c0933994dd0.png?v=1714679292&width=850);
+background-position: center;
+background-size: cover;
+}
