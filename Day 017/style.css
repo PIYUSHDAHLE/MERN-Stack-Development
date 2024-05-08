@@ -1,0 +1,29 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html, body{
+height: 100%;
+width: 100%;
+}
+.box1{
+    /* display: inline; */
+    display: inline-block;
+    visibility: hidden;
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+}
+.box2{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+.box3{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 255, 34);
+}
