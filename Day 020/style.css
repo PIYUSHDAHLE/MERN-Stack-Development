@@ -1,0 +1,180 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    /* overflow: hidden; */
+}
+nav{
+    height: 10%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    font-family: sans-serif;
+    margin-bottom: 2%;
+}
+nav>h1{
+    font-size: 16px;
+}
+nav>.middle{
+    display: flex;
+    gap: 20px;
+}
+.middle a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+nav>button{
+    padding: 10px 25px;
+    background-color: black;
+    color: #fff;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+.text-container{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    margin-bottom: 3%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: sans-serif;
+}
+.text-container>h1{
+    font-size: 80px;
+    
+    margin-bottom: 3%;
+}
+.text-container>p{
+    width: 50%;
+    color: rgb(98, 98, 98);
+}
+.img-container{
+    height: 50%;
+    padding: 10px 20px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    height: 100%;
+    border: 1px solid #fff;
+    width: 20%;
+    /* opacity: 0; */
+    filter: grayscale(2);
+    /* background-color: blue; */
+    transition: all ease 0.5s;
+    
+}
+.box:hover{
+    filter: grayscale(0);
+    
+}
+.box:nth-child(1){
+    background-image: url(https://images.unsplash.com/photo-1715313676046-06e4837b02b6?q=80&w=1376&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    border-radius: 30px;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: sans-serif;
+}
+.box:nth-child(1)>p{
+    width: 80%;
+    margin-top: 30%;
+    text-align: center;
+}
+.box:nth-child(2){
+    background-image: url(https://images.unsplash.com/photo-1715313676046-06e4837b02b6?q=80&w=1376&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    border-radius: 30px;
+    width: 10%;
+    height: 70%;
+   
+    margin-top: 7%;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: sans-serif;
+    flex-direction: column;
+}
+.box:nth-child(2)>p{
+    width: 80%;
+    text-align: center;
+}
+.button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.button-container button{
+    padding: 10px 25px;
+    margin-bottom: 3%;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50px;
+}
+
+.box:nth-child(3) img{
+    height: 70%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+.box:nth-child(4){
+    background-image: url(https://images.unsplash.com/photo-1715313676046-06e4837b02b6?q=80&w=1376&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    border-radius: 30px;
+    width: 10%;
+    height: 70%;
+    margin-top: 7%;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: sans-serif;
+    flex-direction: column;
+}
+.box:nth-child(4)>p{
+    width: 80%;
+    text-align: center;
+}
+
+.box:nth-child(5){
+    background-image: url(https://images.unsplash.com/photo-1715313676046-06e4837b02b6?q=80&w=1376&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    border-radius: 30px;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: sans-serif;
+    /* transform: rotate(-20deg); */
+}
