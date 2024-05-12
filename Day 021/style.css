@@ -1,0 +1,195 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Roboto", sans-serif;
+}
+html, body{
+height: 100%;
+width: 100%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 10px;
+}
+nav > .logo{
+    font-size: 20px;
+    font-weight: bold;
+}
+nav > .middle > a {
+    color: black;
+    text-decoration: none;
+    margin: 0 7px;
+    transition: 1s;
+    border-bottom: 2px solid transparent;
+}
+nav > .middle > a:hover{
+   border-bottom: 2px solid blueviolet;
+   color: blueviolet;
+}
+
+nav > .right > button{
+    background-color: black;
+    color: white;
+    padding:10px 25px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 1s;
+}
+nav > .right > button:hover{
+       background-color: rgb(171, 106, 231);    
+}
+
+header > h1{
+    text-align: center;
+    font-size: 100px;
+    padding:30px 50px;
+    font-weight: bold;
+}
+header > p{
+    text-align: center;
+    padding:0px 280px;
+    font-size: 20px;
+   color: rgb(129, 129, 129);
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.btn > :first-child{
+    background-color: rgb(205, 254, 131);
+    padding: 15px 65px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: larger;
+    transition: 1s;
+}
+
+
+.btn > :nth-child(2){
+    margin-top: 10px;
+    background-color: rgb(221, 221, 221);
+    padding: 15px 65px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: larger;
+    transition: 1s;
+}
+
+.btn > :first-child:hover,.btn > :nth-child(2):hover{
+ transform: scale(0.9);
+ background-color: rgb(209, 161, 255);
+}
+
+
+.mainbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    gap: 15px;
+    padding: 10px 20px;
+}
+
+.box{
+    width: 22.2%;
+    height: 100%;
+    border-radius: 15px;
+    text-align: center;
+    /* filter: grayscale(2); */
+    /* transition: all ease 0.5s; */
+     transition: 1s;
+}
+.box:hover{
+    /* filter: grayscale(0); */
+    transform:scale(0.9);
+    
+}
+.mainbox > :first-child{
+    margin-top: 4%;
+    width: 20%;
+    height: 100%;
+    background-image: url(https://images.pexels.com/photos/162031/dubai-tower-arab-khalifa-162031.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.mainbox > :first-child > .dark >p {
+    padding-top: 40%;
+    color: azure;
+}
+
+.mainbox > .box > img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.mainbox > :nth-child(2){
+    width: 20%;
+    height: 70%;
+    margin-top: 11%;
+    background-image: url(https://www.visitdubai.com/-/media/images/leisure/homepage/2023-homepage-hero/desert-winter-friends-det.jpeg?rev=376389dece354be381c427c690651126&cx=0.63&cy=0.48);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.mainbox > :nth-child(2) > .dark > h1{
+    padding-top: 25%;
+    color: white;
+    }
+    .mainbox > :nth-child(2) > .dark > p{
+        padding: 5px;
+        color: white;
+        }
+.mainbox > :nth-child(4){
+    width: 20%;
+    height: 70%;
+    margin-top: 11%;
+    background-image: url(https://wise.com/imaginary-v2/a1aff2ea163604c7be42140235af0772.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.mainbox > :nth-child(4) > .dark > h1{
+    padding-top: 25%;
+    color: white;
+    }
+    .mainbox > :nth-child(4) > .dark > p{
+        padding: 5px;
+        color: white;
+        }
+.mainbox > :nth-child(5){
+    width: 20%;
+    height: 100%;
+    margin-top: 4%;
+    background-image: url(https://media.cntraveller.com/photos/617936a2a8f76267fba5d115/master/w_1600%2Cc_limit/The%2520Burj%2520Khalifa-GettyImages-1084264582.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+.mainbox > :nth-child(4)>.dark,
+.mainbox > :nth-child(2)>.dark,
+.mainbox > :first-child>.dark{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgba(32, 32, 32, 0.4);
+}
+
+
+
