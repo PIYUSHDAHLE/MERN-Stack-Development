@@ -18,6 +18,15 @@ width: 100%;
     /* animation: boxmove 3s linear 1s 3 forwards; */
 }
 
+.box2{
+    width: 200px;
+    height: 200px;
+    background-color: violet;
+    position: absolute;
+    animation: boxpro 3s linear 1s 2 both;
+}
+
+
 @keyframes boxmove{
     from{
         left: 20%;
@@ -26,5 +35,24 @@ width: 100%;
     to{
         transform: rotate(1000deg) scale(0.9);
        left: 80%;
+    }
+}
+
+@keyframes boxpro{
+    0%{
+        top: 0;
+        left: 0;
+    }
+    50%{
+        top: 0;
+        left: 85%;
+    }
+    75%{
+        top: 70%;
+        left: 85%;
+    }
+    100%{
+        top: 70%;
+        left: 0%;
     }
 }
