@@ -1,0 +1,30 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html, body{
+height: 100%;
+width: 100%;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;
+    position: absolute;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    /* animation: boxmove 3s linear 1s infinite backwards; */
+    animation: boxmove 3s linear 1s 2 both;
+    /* animation: boxmove 3s linear 1s 3 forwards; */
+}
+
+@keyframes boxmove{
+    from{
+        left: 20%;
+        transform: rotate(0deg) scale(0.2) ;
+    }
+    to{
+        transform: rotate(1000deg) scale(0.9);
+       left: 80%;
+    }
+}
