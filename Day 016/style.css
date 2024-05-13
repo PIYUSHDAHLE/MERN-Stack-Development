@@ -285,5 +285,68 @@ background-size: cover;
 }
 
 .footerhead{
-    
+    width: 100%;
+    height: 20%;
+    background-color: #ff39a4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     border-top: 1px solid black;
+     border-bottom: 1px solid black;
+}
+
+.s1{
+    font-size: 70px;
+}
+
+.footerhead > span{
+    display: flex;
+    gap:10px;
+    padding: 10px;
+}
+
+.footerhead > span > a{
+    color: black;
+    font-size: 20px;
+}
+
+.footerhead > span > .subs:hover{
+    color: white;
+}
+
+.footer-menu {
+    margin:20px 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.footer-menu > .b1 > img{
+    margin-top: -100px;
+    width: 100px;
+    height: 100px;
+}
+
+.footer-menu > .b2 > ul > li{
+  list-style: none;
+  padding: 2px;
+  font-weight: 500;
+
+}
+
+.footer-menu > .b3 > .x1 {
+       margin-top: -0px;
+}
+
+.footer-menu > .b3 > .x3{
+    margin-bottom: 10px;
+}
+
+.last{
+    width: 100%;
+    height: 7%;
+    padding: 7px;
+    border-bottom: 1px solid black;
 }
