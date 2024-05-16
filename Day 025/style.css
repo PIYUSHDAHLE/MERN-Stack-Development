@@ -30,7 +30,7 @@ input:focus {
     height: 50%;
     background-color: bisque;
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
