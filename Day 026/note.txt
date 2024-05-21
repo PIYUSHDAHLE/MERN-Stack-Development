@@ -1,0 +1,34 @@
+
+
+PROCESS OF CREATING Variable
+
+1. var/let/const are keywords
+2. Variable/container name
+3. =, assignmental operator, right(value) to left(Variable)
+4. value/info/data
+
+ex :-  let a = 15 ; 
+
+NAING CONVENSION OF Variable
+
+1. Munst be related to the data
+2. Must be start with small/capital letter or "_"
+3. Must not start with numerical value through can be use after first letter
+4. Must be a single word 
+5. Must use case pattern if Variable is more than a word
+
+snake_case_pattern
+camelCasepattern
+PascalCasePattern
+
+kabab-case-pattern xxxxxxxx
+
+Datatype
+number : 123,-52
+string : "hello world", "hello world 123"
+boolean : true, false
+Object : array[]/object{}
+
+what is Symbol Datatype in javascript
+
+JavaScript Symbols are a new type of primitive data type introduced in the ES6 version of the language. They are used to represent unique values that can be used as identifiers or keys in objects.
