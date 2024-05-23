@@ -1,0 +1,13 @@
+//operator
+
+1. (Binary) Arthmatic : + ,- ,/ ,* , **
+
+2. shorthand : +=, -=, /=, %=, *=, **=
+
+we can use shorthand operator if we want to update a variable and assign the value to itself
+
+3. (Unary) increment/decrement ++ --
+
+4. assignmental =
+assigning value from right side of the operator to left save side
+
