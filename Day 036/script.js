@@ -57,3 +57,5 @@ function greed(){
     greed();
 
     // to Input the value from outside to the function legally we use parameterized function
+
+    
