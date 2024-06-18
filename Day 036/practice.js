@@ -1,5 +1,5 @@
 //13. WAP to find the factorial of the given integer.
-// let num=5,ans=1;
+let num=5,ans=1;
 
 for (let i = 1; i <=5; i++) {
     ans=ans*i;
