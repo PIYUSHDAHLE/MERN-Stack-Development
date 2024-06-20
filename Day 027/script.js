@@ -11,7 +11,7 @@
 //alert()
 
 let a=parseInt(prompt("Enter number 1"))
-let b= +prompt("Enter number 2")
+let b= prompt("Enter number 2")
 let c= Number(prompt("Enter number 3"))
 
 let sum=parseInt(a+b+c);
