@@ -59,5 +59,6 @@ console.log(arr.shift());//remove the first element and give the removed element
 console.log(arr);
 
 //splice method
+console.log(arr);
 console.log(arr.splice(2,4));//remove the element from 2nd and return removed array element
 console.log(arr);

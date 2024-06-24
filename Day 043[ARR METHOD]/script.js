@@ -29,7 +29,7 @@ let w = arr.map((element,index)=>{
     return (element,index);
 });
 
-console.log(w);
+console.log(" Map ",w);
 
 //filter method
 
@@ -42,3 +42,4 @@ console.log(arr);
 
 //JSON (JAVASCRIPT OF NOTATION)
 [{},{},{}]
+
