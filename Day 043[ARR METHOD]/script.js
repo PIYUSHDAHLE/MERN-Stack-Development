@@ -1,7 +1,17 @@
 // slice method 
 let arr = [11,45,52,46,74,5,10,44];
+let arr2 = [
+   {employe:{
+    remote:{name:"raju"},
+    office:{}
+   }},
+   {student:{
+    online:{},
+    offline:{}
+   }}
+]
 // arr.slice(startingIndex,endingIndex +1);
-let x =arr.slice(2,-2);
+let x = arr.slice(2,-2);
 console.log(x);
 console.log(arr);
 
@@ -12,18 +22,19 @@ console.log(arr);
 //Difference traverse technique
 
 //way 1
-// for (let index = 0; index < array.length; index++) {
-//    console.log(index,arr[arr]);
-// }
+for (let index = 0; index < array.length; index++) {
+   console.log(index,arr[arr]);
+}
 
-//way 2(forEach)
+//way 2(forEach) (it is generally use in array of object)
 
-// arr.forEach((element,index)=>{
-//     console.log(index,element);
-// });
+arr2.forEach((element,index)=>{
+    console.log(index,element.employe.remote.name);
+});
 
 
-//map method
+
+//map method (it is use to return the value and store in the var.)
 
 let w = arr.map((element,index)=>{
     return (element,index);
@@ -31,7 +42,7 @@ let w = arr.map((element,index)=>{
 
 console.log(" Map ",w);
 
-//filter method
+// //filter method(it is use to return the value with some conditions)
 
 let q = arr.filter((element,index)=>{
     return element%2!==0;
@@ -40,6 +51,6 @@ let q = arr.filter((element,index)=>{
 console.log(q);
 console.log(arr);
 
-//JSON (JAVASCRIPT OF NOTATION)
+// //JSON (JAVASCRIPT OF NOTATION)
 [{},{},{}]
 

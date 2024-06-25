@@ -20,9 +20,11 @@ function str(haystack,needle) {
 
 let haystack1 = "sadbutsad", needle1 = "sad";
 let haystack2 = "leetcode", needle2 = "leeto";
+let haystack3 = "piyushdahle", needle3 = "yush";
 
 console.log(str(haystack1,needle1));
 console.log(str(haystack2,needle2));
+console.log(str(haystack3,needle3));
 
 //str1.indexOf(str2) here we have to check the str2 is available or not in str1 so we use this indexOf() method
 // if available then return 0 else return -1
