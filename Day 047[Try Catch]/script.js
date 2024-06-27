@@ -17,15 +17,22 @@
 
 try {
 
+    let a = 11;
     let b = 12;
 let sum = a+b;
 console.log(sum);
 
+if(sum%2 != 0){
+    throw Error("odd value not allowed"); 
+}
+
 } catch (error) {
     // console.log(error);
-    console.log(error.name);
-    console.log(error.message);
+    console.log(error.name," : ",error.message);
     console.log("SOMETHING WENT WRONG");
+    
+} finally{
+    console.log("This code is run anyhow");
 }
 
 console.log("hello boss");
