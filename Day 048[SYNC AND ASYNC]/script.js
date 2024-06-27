@@ -9,3 +9,9 @@ setTimeout(()=>{
     }, 1000)
 
 console.log(3);
+
+setTimeout(()=>{
+    console.log("Hello");
+    }, 2000)
+
+console.log("boss");
