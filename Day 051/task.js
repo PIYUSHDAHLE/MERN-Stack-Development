@@ -47,14 +47,13 @@ function addStudent(id, name, grades) {
 }
 
 function removeStudent(id) {
-    // Find the index of the student with the given id
+
     const index = students.findIndex(student => student.id === id);
     if (index === -1) {
         console.log(`Student with ID ${id} not found.`);
         return;
     }
 
-    // Remove the student from the array
     students.splice(index, 1);
 }
 
