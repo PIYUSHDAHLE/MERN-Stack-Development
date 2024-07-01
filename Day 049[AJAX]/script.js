@@ -1,5 +1,5 @@
 // API is given by the backend to implement the API in the frontend we use the concept of AJAX Which is theoretical concept and implement it we use "fetch api"/"axios" in frontend
-
+//AJAX (Asynchronous JavaScript and XML)
 let userApi = `https://jsonplaceholder.typicode.com/users`;
 
 fetch(userApi)
