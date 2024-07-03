@@ -5,5 +5,5 @@ function randomColor() {
 }
 
 setInterval(() => {
-  body.style.backgroundColor = rgb(${randomColor()}, ${randomColor()}, ${randomColor()});
+  body.style.backgroundColor = `rgb(${randomColor()}, ${randomColor()}, ${randomColor()})`;
 }, 250);

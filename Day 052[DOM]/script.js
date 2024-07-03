@@ -25,6 +25,6 @@ heading.textContent = "Change Content";  // manipluting the element
 
 heading.innerHTML = "change content";  // manipluting the element
 console.log(heading.innerHTML);
-
+ 
 heading.style.color = "red";
 heading.style.fontSize = "40px";
