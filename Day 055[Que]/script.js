@@ -1,8 +1,8 @@
-const name = prompt("Enter your name : ")
+// const name = prompt("Enter your name : ")
 
-const h1 = document.querySelector("h1");
+// const h1 = document.querySelector("h1");
 
-h1.innerHTML = `Hello, ${name}`;
+// h1.innerHTML = `Hello, ${name}`;
 
 // console.log(h1.innerHTML);
 
@@ -17,6 +17,6 @@ box.appendChild(h2);
 
 /////////////////////////////////////
 
-window.addEventListener("load",()=>{
-    console.log("Hello");
-})
+// window.addEventListener("load",()=>{
+//     console.log("Hello");
+// })
