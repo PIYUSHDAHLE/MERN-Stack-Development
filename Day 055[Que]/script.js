@@ -1,22 +1,24 @@
-// const name = prompt("Enter your name : ")
+// const body = document.querySelector("body");
+// const button = document.querySelector("button");
 
-// const h1 = document.querySelector("h1");
+// function randomColor() {
+//     return Math.floor(Math.random() * 256);
+// }
 
-// h1.innerHTML = `Hello, ${name}`;
+// button.addEventListener("click", ()=> {
+//     body.style.backgroundColor = rgb(${randomColor()}, ${randomColor()}, ${randomColor()});
+// });
 
-// console.log(h1.innerHTML);
+// -------------------------------------------------------------------------------------------------
 
-////////////////////////////////////////////
+const container = document.querySelector(".container");
+const h = document.createElement("h1");
 
-const box = document.querySelector(".box");
-const h2 = document.querySelector("h2");
+h.textContent = "Hello World";
+container.appendChild(h);         // last main add hota hai
 
-h2.innerHTML ='hello boss';
+// ----------------------------------------------------------------------------------------------
 
-box.appendChild(h2);
-
-/////////////////////////////////////
-
-// window.addEventListener("load",()=>{
+// window.addEventListener("load", ()=>{
 //     console.log("Hello");
-// })
+// });
