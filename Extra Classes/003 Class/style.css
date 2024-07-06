@@ -1,0 +1,242 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.pop-up{
+    height: 350px;
+    width: 600px;
+    background-color: #fff;
+    position: fixed;
+    z-index: 9999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+.cancel{
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+.cancel i{
+    font-size: 2rem;
+}
+.pop-up h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.main{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    transition: all ease 0.5s;
+}
+
+.page1{
+    height: 100vh;
+    width: 100%;
+    background-color: #ECECEC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page1 h1{
+    font-size: 7.5rem;
+    font-family: fantasy;
+    font-weight: 100;
+    letter-spacing: 0.2rem;
+    text-align: center;
+}
+
+.nav{
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 3rem;
+}
+
+.left-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.left-container img{
+    height: 2rem;
+    border-right: 1px solid #000;
+    padding-right: 1rem;
+}
+
+.left-container h1{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.menu-container{
+    height: 4rem;
+    width: 4rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    transition: all ease 0.20s;
+    border-radius: 50%;
+}
+
+#lines{
+    height: 3px;
+    width: 3rem;
+    background-color: #000;
+    transition: all ease 0.20s;
+}
+
+.slide-menu{
+    height: 100vh;
+    width: 50%;
+    background-color: #fff;
+    position: fixed;
+    z-index: 99;
+    right: -100%;
+    transition: all ease 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.3rem;
+    flex-direction: column;
+    font-size: 1.7rem;
+    text-align: start;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.box{
+    height: 4rem;
+    width: 20rem;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.box:hover .box-up {
+    margin-top: -23%;
+    transition: all ease 0.2s;
+}
+
+.slide-menu h1{
+    font-weight:500;
+    text-align: start;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Media Queries for Responsiveness */
+
+/* Small devices (portrait tablets and large phones, 600px and below) */
+@media (max-width: 600px) {
+    .page1 h1 {
+        font-size: 3rem;
+    }
+    .nav {
+        padding: 0rem 1rem;
+    }
+    .left-container h1 {
+        font-size: 0.8rem;
+    }
+    .menu-container {
+        height: 3rem;
+        width: 3rem;
+    }
+    #lines {
+        width: 2.5rem;
+    }
+    .slide-menu {
+        width: 70%;
+        font-size: 1.2rem;
+    }
+    .box {
+        width: 15rem;
+    }
+}
+
+/* Medium devices (landscape tablets, 600px to 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .page1 h1 {
+        font-size: 5rem;
+    }
+    .nav {
+        padding: 0rem 2rem;
+    }
+    .left-container h1 {
+        font-size: 0.9rem;
+    }
+    .menu-container {
+        height: 3.5rem;
+        width: 3.5rem;
+    }
+    #lines {
+        width: 2.8rem;
+    }
+    .slide-menu {
+        width: 60%;
+        font-size: 1.4rem;
+    }
+    .box {
+        width: 17rem;
+    }
+}
+
+/* Large devices (laptops/desktops, 1024px and up) */
+@media (min-width: 1025px) {
+    .page1 h1 {
+        font-size: 7.5rem;
+    }
+    .nav {
+        padding: 0rem 3rem;
+    }
+    .left-container h1 {
+        font-size: 1rem;
+    }
+    .menu-container {
+        height: 4rem;
+        width: 4rem;
+    }
+    #lines {
+        width: 3rem;
+    }
+    .slide-menu {
+        width: 50%;
+        font-size: 1.7rem;
+    }
+    .box {
+        width: 20rem;
+    }
+}
+
+.page2{
+    height: 100vh;
+    width: 100%;
+    background-color: #ECECEC;
+}
+.page3{
+    height: 100vh;
+    width: 100%;
+    background-color: #ECECEC;
+}
