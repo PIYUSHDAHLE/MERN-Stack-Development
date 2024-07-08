@@ -1,0 +1,19 @@
+*DOM Manipulation Task: Interactive Image Gallery*
+
+### Objective:
+Create an interactive image gallery using HTML, CSS, and JavaScript. The gallery should display thumbnails of images, and clicking on a thumbnail should show the full-size image in a lightbox.
+
+### Requirements:
+
+1. *HTML Structure:*
+   - A container for thumbnails.
+   - A lightbox for displaying the full-size image.
+
+2. *CSS Styling:*
+   - Basic styling for the gallery container and thumbnails.
+   - Lightbox styling with a semi-transparent background and centered image.
+
+3. *JavaScript Functionality:*
+   - Display thumbnails in a flex layout.
+   - Clicking on a thumbnail opens the full-size image in the lightbox.
+   - Clicking on the lightbox or a close button closes the lightbox.
