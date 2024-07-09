@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+section {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.element {
+    cursor: pointer;
+    width: 100%;
+    height: 20vh;
+    border-bottom: 2px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.element h1 {
+    font-size: 15vh;
+    color: white;
+}
+.element img {
+    mix-blend-mode: difference;
+    height: 7vmax;
+    width: 7vmax;
+    position: absolute;
+    opacity: 0;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.1s;
+}
