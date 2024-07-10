@@ -47,6 +47,5 @@ main{
 
 .pop img {
     width: 270px;
-    height: 450px;
-    object-fit: cover;
+    height: 450px;   
 }

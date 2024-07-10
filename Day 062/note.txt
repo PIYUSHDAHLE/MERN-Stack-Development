@@ -1,0 +1,41 @@
+Task: Create a Simple Modal Popup
+
+*Objective:*
+Create a simple webpage with a button that opens a modal popup. The modal should have a close button and should close when the user clicks outside of it.
+
+*Requirements:*
+1. *HTML:*
+   - Create a basic structure with a button to open the modal.
+   - Create the modal structure with some placeholder content and a close button.
+
+2. *CSS:*
+   - Style the modal to make it look centered and overlay the rest of the webpage.
+   - Add some basic styles to the rest of the page.
+
+3. *JavaScript:*
+   - Add functionality to open the modal when the button is clicked.
+   - Add functionality to close the modal when the close button is clicked or when clicking outside the modal.
+
+### Explanation:
+
+1. HTML:
+Create a basic structure for the webpage with a button to open the modal and the modal structure itself, including a close button and some placeholder content.
+
+2. CSS:
+Style the modal to make it visually distinct and overlay the rest of the content. The modal should be centered on the screen.
+
+3. JavaScript:
+Implement the following functionalities:
+- *Open Modal:* When the user clicks the "Open Modal" button, the modal should be displayed.
+- *Close Modal:* The modal should be closed when the user clicks the close button or anywhere outside the modal content.
+
+Steps:
+
+1. *Set Up the HTML Structure:*
+   - Create an HTML file (index.html) with a button to open the modal and the modal structure.
+
+2. *Style the Modal:*
+   - Use a CSS file (styles.css) to style the modal and the rest of the page.
+
+3. *Add JavaScript Functionality:*
+   - Use a JavaScript file (script.js) to handle opening and closing the modal.
