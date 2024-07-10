@@ -17,6 +17,10 @@ main{
     display: flex;
     align-items: flex-start;
     justify-content: center;
+    background-image: url(https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?cs=srgb&dl=pexels-padrinan-255379.jpg&fm=jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 main > button{
