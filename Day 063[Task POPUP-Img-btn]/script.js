@@ -16,4 +16,3 @@ popUp.addEventListener('click', (event) => {
         popUp.style.display = 'none';
     }
 });
-
