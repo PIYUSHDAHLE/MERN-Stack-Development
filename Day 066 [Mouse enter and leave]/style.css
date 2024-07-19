@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+    /* background-color: red; */
+    overflow: hidden;
+}
+
+.main video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    opacity: 0;
+    transition: all ease 0.4s;
+}
+
+.main button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    border: 1px solid #000;
+    border-radius: 50px;
+    padding: 10px 20px;
+}
