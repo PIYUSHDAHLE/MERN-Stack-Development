@@ -12,5 +12,5 @@ body.addEventListener("keyup", (e) => {
     element.style.backgroundColor = "black";
     element.style.color = "white";
     element.children[0].pause();
-    // element.children[0].load();
+    element.children[0].load();
 });
