@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Kalnia Glaze", serif;
+}
+
+html, body{
+height: 100%;
+width: 100%;
+}
+
+.box{
+width: 30px;
+height: 100px;
+background-color: tomato;
+}
+
+.content{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background:linear-gradient(rgb(165, 165, 248),rgb(212, 212, 212),rgb(165, 165, 248));
+}
+
+.content h1{
+    font-size: 100px;
+    top: 40px;
+    opacity: 0;
+    position: relative;
+}
+
