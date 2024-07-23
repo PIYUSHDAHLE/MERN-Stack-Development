@@ -1,0 +1,19 @@
+1. "Both Commands generate package.json file"
+   npm init
+   npm init -y
+
+2. Ways to download npm package.
+   npm install packagename (download package in computer)
+   npm install packagename --save (download package in working folder only)
+   npm install packagename -g (download package globally)
+   npm install packagename -D (download package in working folder devdependencies )
+
+3. shortcuts to download packages/dependencies
+   npm i packagename --save
+   npm i --save packagename
+
+4. npm i -g nodemon
+   nodemon -> live server of node files
+   TO RUN FILE WITH NODEMON -> nodemon filename /npx nodemon filename
+5. Command to remove the package
+   npm remove packagename
