@@ -1,0 +1,23 @@
+@font-face {
+    font-family: pp;
+    src: url(./PPNeueMontreal-Medium.88ee7c9.woff2);
+}
+@font-face {
+    font-family: found;
+    src: url(./founders-grotesk-x.cd2d353.woff2);
+}
+:root{
+    --pri:#E5E7DF;
+    --sec:#1E1E1E;
+}
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html, body {
+    height:100%;
+    width:100%;
+}
