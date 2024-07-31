@@ -21,3 +21,132 @@ html, body {
     height:100%;
     width:100%;
 }
+body{
+    overflow-x: hidden;
+}
+
+nav{
+    width: 100%;
+    background-color: var(--pri);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 30px;
+    position: fixed;
+}
+nav img{
+    /* height: 40px; */
+    width: 9%;
+    mix-blend-mode: difference;
+}
+.nav-part2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 17%;
+}
+nav a{
+    text-decoration: none;
+    color: var(--sec);
+    font-family: pp;
+    font-size: 21px;
+
+    font-weight: 600;
+
+}
+
+#main{
+    background-color: #E5E7DF;
+}
+#page1{
+    height: 100vh;
+    width: 100%;
+    padding: 2.5vw;
+    padding-top: 13vw;
+
+}
+#page1-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.page1-part1{
+    width: 22%;
+}
+.page1-part1 p{
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-family: pp;
+}
+.page1-part1 a{
+    text-decoration: none;
+    width: 70%;
+    padding: 5px 0px;
+    color: var(--sec);
+    font-size: 20px;
+    font-family: pp;
+    display: inline-block;
+    /* background-color: blue; */
+    border-bottom: 1px solid var(--sec);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.page1-part2{
+    width: 58%;
+    /* background-color: blue; */
+}
+.page1-part2 h2{
+    font-size:50px;
+    font-family: pp;
+    line-height: 1.1;
+    font-weight: 400;
+}
+
+#page1-heading{
+    height: 63%;
+    margin-top: 3%;
+    width: 100%;
+    padding-bottom: 3vw;
+    display: flex;
+}
+
+#page1-heading .textdiv{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    width: fit-content;
+    gap: 2vw;
+    padding-right: 10vw;
+    animation-name: move;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+.textdiv h1{
+    font-size: 30vw;
+    font-family: found;
+    text-transform: uppercase;
+
+
+}
+.textdiv img{
+    height: 100%;
+    margin-top: 3vw;
+}
+
+@keyframes move {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+#page2{
+    height: 100vh;
+    width: 100%;
+}
