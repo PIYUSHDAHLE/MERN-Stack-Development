@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title><%= title%></title>
+    </head>
+    <body>
+        <h1>This is EJS View Engine.</h1>
+
+        <%# let n = 11; %>
+
+        <!--  -->
+        <% if(n%2 == 0 ) { %>
+        <!--  -->
+        <h1><%= n%>, Number is even</h1>
+        <!--  -->
+        <% } else { %>
+        <!--  -->
+        <h1><%= n%>, Number is odd</h1>
+        <!--  -->
+        <% } %>
+        <hr />
+        <ul>
+            <% subjects.forEach((subject,index) => { %>
+            <!--  -->
+            <li><%= subject %></li>
+            <!--  -->
+            <% }) %>
+        </ul>
+        <hr />
+        <h1><%= profile.name%></h1>
+        <h1><%= profile.age%></h1>
+        <h1><%= profile.city%></h1>
+        <hr />
+        <ul>
+            <% users.forEach((user,index) => { %>
+            <!--  -->
+            <li><%= user.username %> | <%= user.password%></li>
+            <!--  -->
+            <% }) %>
+        </ul>
+    </body>
+</html>
