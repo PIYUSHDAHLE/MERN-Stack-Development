@@ -13,11 +13,11 @@ app.use("/", indexRoutes);
 
 
 app.get("/middleware", isAuthenticate, (req, res)=>{
-    res.json({message: "aage jaane do"});
+    res.json({message: "GO AHEAD"});
 })
 
 function isAuthenticate(req, res, next){
-    if(res.headers.token === "sb bdiya hai"){
+    if(res.headers.token === "ALL IS WELL"){
         next();
     }else{
         res.status(401).json({message: "Unauthorized"});
