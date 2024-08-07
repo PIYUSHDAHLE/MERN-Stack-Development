@@ -121,7 +121,7 @@ nav a{
     gap: 2vw;
     padding-right: 10vw;
     animation-name: move;
-    animation-duration: 20s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 
@@ -186,5 +186,47 @@ nav a{
 }
 
 #page3{
+    min-height: 100vh;
+    background-color: #fff;
+    padding: 12vh 4vw;
+    position: relative;
+}
+.page3-heading{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    width: 100%;
+
+}
+
+.page3-heading h1{
+    font-size: 31vw;
+    font-family: found;
+    text-transform: uppercase;
+    line-height: 0.76;
+
+}
+
+.page3-video{
+    height: 20vw;
+    width: 30vw;
+    position: absolute;
+    top: 56%;
+    /* background-color: red; */
+    left: 37.5%;
+    scale: 1;
+    opacity: 0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.page3-video video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#page4{
     height: 100vh;
+    background-color: #fff;
 }
