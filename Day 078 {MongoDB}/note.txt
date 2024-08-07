@@ -1,0 +1,56 @@
+Command line interface 
+graphical user interface
+
+
+1.mongosh : check version
+
+show dbs : check all database
+
+use database_name : use to existing DB/create new DB
+
+database_name collections : use to see all the existing collections in db
+
+
+READ
+db.collectionName.find()
+db.collectionName.find().pretty() : to see all data insie collection
+
+db.collectionName.findOne({key:value})
+
+CREATE 
+db.collectionName.createCollection
+db.collectionName.insertOne({...}) : insert new document
+db.collectionName.insertMany([{...},{...}....])
+
+
+UPDATE
+db.collectionName.updateOne({name:"jhon"}, {$set :{age:25}})
+db.collectionName.updateMany({name:"jhon"}, {$set :{admin:false}})
+
+
+
+..................................
+
+1. show dbs -> to see all existing databases
+2. use databaseName (to use existing db/ create new db)
+3. show collections (to see existing collections in the used db)
+
+READ
+4. db.collectionName.find()/.pretty() (see all the data inside collection)
+5. db.collectionName.findOne({key: value})
+
+CREATE
+6. db.collectionName.insertOne({...}) (insert single document{})
+7. db.collectionName.insertMany([{..}, {...}...]) (insert many document [{},{}])
+8. db.createCollection() (create new collection only) 
+
+UPDATE
+9. db.collectionName.updateOne({key: value}, {updated data}) (to update single document)
+10. db.collectionName.updateMany({}, {updated value}) (to update many/all documents)
+
+DELETE
+11. db.collection.deleteOne({key: value}) (delete single document)
+12. db.collection.deleteMany({}) (delete many/all document)
+
+13. db.collectionName.drop() (deletes the existing collection)
+14. db.dropDatabase() (deletes the existing database/ which is being used)
