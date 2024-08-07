@@ -6,13 +6,23 @@
     <title>Document</title>
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
+      rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div id="loader">
+      <div id="loadingDiv">
+        <div class="loading-time">
+          <h2>Loading...</h2>
+          <h3>0%</h3>
+        </div>
+        <div class="progress">
+          <div class="growth"></div>
+        </div>
+      </div>
+    </div>
     <nav>
-      <img src="https://betteroff.studio/logo.svg" alt="" />
+      <img src="https://betteroff.studio/logo.svg" alt />
       <div class="nav-part2">
         <a href="#">Overview</a>
         <a href="#">Work</a>
@@ -20,6 +30,13 @@
       </div>
       <a href="#">Pricing</a>
     </nav>
+    <div class="cursor">
+      <img
+        src="https://www.datocms-assets.com/106915/1717687460-betteroffstudio_work-loop_26.jpg?auto=format%2Ccompress&dpr=1.5&fit=max&h=800&w=800"
+        alt />
+      <h2>See All (6)</h2>
+    </div>
+
     <div id="main">
       <div id="page1">
         <div id="page1-content">
@@ -45,22 +62,19 @@
             <h1>Subscribe</h1>
             <img
               src="https://www.datocms-assets.com/106915/1717687440-betteroffstudio_work-loop_22.jpg?auto=format%2Ccompress&dpr=1.5&fit=max&h=800&w=800"
-              alt=""
-            />
+              alt />
           </div>
           <div class="textdiv">
             <h1>Subscribe</h1>
             <img
               src="https://www.datocms-assets.com/106915/1717687440-betteroffstudio_work-loop_22.jpg?auto=format%2Ccompress&dpr=1.5&fit=max&h=800&w=800"
-              alt=""
-            />
+              alt />
           </div>
           <div class="textdiv">
             <h1>Subscribe</h1>
             <img
               src="https://www.datocms-assets.com/106915/1717687440-betteroffstudio_work-loop_22.jpg?auto=format%2Ccompress&dpr=1.5&fit=max&h=800&w=800"
-              alt=""
-            />
+              alt />
           </div>
         </div>
       </div>
@@ -100,28 +114,23 @@
         </div>
 
         <div class="page3-video">
-          <video autoplay loop muted src="https://download-video.akamaized.net/v3-1/playback/dd046d05-211c-474a-88ae-e1fb80b38bb8/aaf6bf39-a5cbc5f1?__token__=st=1722919817~exp=1722934217~acl=%2Fv3-1%2Fplayback%2Fdd046d05-211c-474a-88ae-e1fb80b38bb8%2Faaf6bf39-a5cbc5f1%2A~hmac=1ee766274930e198750c5be5edf56e44b1752f5eeec2afe664a2567d9a0c07c6&r=dXMtY2VudHJhbDE%3D"></video>
+          <video autoplay loop muted src="./video.mp4"></video>
         </div>
       </div>
-      <div id="page4">
-        
-      </div>
-
-
+      <div id="page4"></div>
     </div>
 
+    <script src="https://unpkg.com/lenis@1.1.9/dist/lenis.min.js"></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
       integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
       crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
+      referrerpolicy="no-referrer"></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
       integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
       crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
+      referrerpolicy="no-referrer"></script>
     <script src="script.js"></script>
   </body>
 </html>
