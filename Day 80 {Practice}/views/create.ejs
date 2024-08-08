@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Create | Node App</title>
+        <link rel="stylesheet" href="/stylesheets/style.css">
+    </head>
+    <body>
+        <%- include("nav")%>
+
+        <h1>This is Create Page</h1>
+        <form action="/save" method="post">
+            <input name="name" type="text" placeholder="john doe" />
+            <input name="email" type="email" placeholder="john@doe.example" />
+            <input name="password" type="password" placeholder="*******" />
+            <button>Create User</button>
+        </form>
+    </body>
+</html>
