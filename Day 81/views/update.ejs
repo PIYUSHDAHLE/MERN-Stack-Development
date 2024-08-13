@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Update | Node App</title>
+    </head>
+    <body>
+        <%- include("nav")%>
+
+        <h1>This is Update Page</h1>
+        <form action="/update/<%= user._id%>" method="post">
+            <input
+                name="name"
+                type="text"
+                placeholder="john doe"
+                value="<%= user.name%>"
+            />
+            <input
+                name="email"
+                type="email"
+                placeholder="john@doe.example"
+                value="<%= user.email%>"
+            />
+            <input
+                name="password"
+                type="password"
+                placeholder="*******"
+                value="<%= user.password %>"
+            />
+            <button>Update User</button>
+        </form>
+    </body>
+</html>
