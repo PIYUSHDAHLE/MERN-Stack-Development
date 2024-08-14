@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Homepage | Node App</title>
+    </head>
+    <body>
+        <%- include("nav")%>
+        <h1>This is HomePage</h1>
+        <ul>
+            <% users.forEach(user => { %>
+            <!--  -->
+            <li>
+                <a href="/details/<%= user._id%>"> <%= user.name %> </a>
+                | <a href="/delete/<%= user._id %>">❌</a> |
+                <a href="/update/<%= user._id%>">✏️</a> |
+                <a href="/post/create/<%= user._id%>">➕</a>
+            </li>
+            <!--  -->
+            <% }) %>
+        </ul>
+        <hr />
+        <ul>
+            <% posts.forEach(post => { %>
+            <!--  -->
+            <li>
+                Created By: <%= post.user.name %> | <%= post.title %> |
+                <a href="/post/delete/<%= post._id %>">❌</a> |
+                <a href="/post/update/<%= post._id%>">✏️</a> |
+            </li>
+            <!--  -->
+            <% }) %>
+        </ul>
+    </body>
+</html>
